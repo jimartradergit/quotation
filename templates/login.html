@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Laxmi Steel Yard</title>
+  <style>
+    body { font-family: 'Segoe UI'; background:#f2f4f8; text-align:center; padding-top:100px; }
+    form { display:inline-block; background:white; padding:30px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+    input { display:block; width:250px; margin:10px auto; padding:10px; border:1px solid #ccc; border-radius:5px; }
+    button { background:#0b5394; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer; }
+    button:hover { background:#073763; }
+    .error { color:red; }
+  </style>
+</head>
+<body>
+  <h2>🔐 Login to LAXMI STEEL YARD</h2>
+  {% if error %}
+  <p class="error">{{ error }}</p>
+  {% endif %}
+  <form method="post" action="/login">
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+  <p>New user? <a href="/register">Register here</a></p>
+</body>
+</html>

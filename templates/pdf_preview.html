@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quotation PDF Preview</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4ff;
+      text-align: center;
+      margin: 0;
+    }
+    h2 { color: #0b5394; margin: 20px 0 10px; }
+    iframe {
+      width: 90%; height: 85vh;
+      border: 2px solid #ccc; border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+    .btn {
+      background: linear-gradient(90deg, #0b5394, #073763);
+      color: white; padding: 10px 20px; margin: 10px;
+      border: none; border-radius: 6px;
+      font-size: 15px; font-weight: bold;
+      text-decoration: none; cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #073763, #0b5394);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h2>Quotation PDF Preview</h2>
+  <iframe src="/static/{{ pdf_name }}" title="PDF Preview"></iframe>
+  <div>
+    <a href="/download/{{ pdf_name }}" class="btn">⬇ Download PDF</a>
+    <a href="/" class="btn" style="background:#666;">⬅ Back to Form</a>
+  </div>
+</body>
+</html>

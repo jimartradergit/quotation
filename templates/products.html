@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Catalog | PRITAM STEEL</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f7fb;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #0b5394;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 95%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th {
+      background: #0b5394;
+      color: white;
+      padding: 12px;
+      font-size: 15px;
+    }
+    td {
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    tr:hover { background: #f0f6ff; }
+    input[type="number"], input[type="text"] {
+      width: 85%;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-align: center;
+    }
+    button {
+      background: #0b5394;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover { background: #073763; }
+    .delete-btn {
+      background: #c0392b;
+    }
+    .delete-btn:hover {
+      background: #922b21;
+    }
+    form.add-form {
+      width: 450px;
+      margin: 20px auto 30px;
+      background: white;
+      padding: 20px 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-top: 5px solid #0b5394;
+    }
+    form.add-form input, form.add-form select, form.add-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form.add-form button {
+      width: 100%;
+      background: #0b5394;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    form.add-form button:hover {
+      background: #073763;
+      transform: scale(1.02);
+    }
+    .back {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .back a {
+      text-decoration: none;
+      color: #0b5394;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Product Management</h2>
+
+  <!-- Add New Product Form (Moved Above Table) -->
+  <form class="add-form" action="/add_product" method="post">
+    <h3 style="text-align:center; color:#0b5394;">➕ Add New Product</h3>
+    <label>Product Name:</label>
+    <input type="text" name="name" placeholder="Enter product name" required>
+
+    <label>Description:</label>
+    <textarea name="description" rows="3" placeholder="Short description (optional)"></textarea>
+
+    <label>Price (₹):</label>
+    <input type="number" step="0.01" name="price" placeholder="Enter product price" required>
+
+    <label>Unit Type:</label>
+    <select name="unit_type" required>
+      <option value="">-- Select Unit --</option>
+      <option value="Kg">Kg</option>
+      <option value="Nos">Nos</option>
+      <option value="Meter">Meter</option>
+      <option value="Pieces">Pieces</option>
+      <option value="Bundle">Bundle</option>
+    </select>
+
+    <button type="submit">💾 Add Product</button>
+  </form>
+
+  <!-- Product Catalog Table -->
+  <table>
+    <tr>
+      <th>Product Name</th>
+      <th>Description</th>
+      <th>Price (₹)</th>
+      <th>Unit Type</th>
+      <th>Actions</th>
+    </tr>
+    {% for p in products %}
+    <tr>
+      <form action="/update_product" method="post" style="display:inline;">
+        <td>
+          <input type="hidden" name="old_name" value="{{ p.name }}">
+          <input type="text" name="name" value="{{ p.name }}" required>
+        </td>
+        <td><input type="text" name="description" value="{{ p.description }}"></td>
+        <td><input type="number" step="0.01" name="price" value="{{ p.price }}" required></td>
+        <td>
+          <select name="unit_type" required>
+            <option value="Kg" {% if p.unit_type == 'Kg' %}selected{% endif %}>Kg</option>
+            <option value="Nos" {% if p.unit_type == 'Nos' %}selected{% endif %}>Nos</option>
+            <option value="Meter" {% if p.unit_type == 'Meter' %}selected{% endif %}>Meter</option>
+            <option value="Pieces" {% if p.unit_type == 'Pieces' %}selected{% endif %}>Pieces</option>
+            <option value="Bundle" {% if p.unit_type == 'Bundle' %}selected{% endif %}>Bundle</option>
+          </select>
+        </td>
+        <td>
+          <button type="submit">💾 Save</button>
+      </form>
+      <form action="/delete_product" method="post" style="display:inline;">
+        <input type="hidden" name="name" value="{{ p.name }}">
+        <button type="submit" class="delete-btn">🗑 Delete</button>
+      </form>
+        </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <div class="back">
+    <a href="/">← Back to Home</a>
+  </div>
+</body>
+</html>

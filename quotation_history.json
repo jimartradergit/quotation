@@ -1,0 +1,629 @@
+[
+  {
+    "quotation_no": "LSY 1/",
+    "customer_name": "TARUN",
+    "date": "05-11-2025",
+    "file": "quotation_TARUN_05-11-2025_185447.pdf",
+    "total": 39589,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "TARUN",
+      "customer_address": "SANGLI",
+      "customer_city": "SANGLI",
+      "shipping_name": "TARUN",
+      "shipping_address": "Kolhapur",
+      "shipping_city": "SANGLI",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-08",
+      "note": "ADVANCE",
+      "loading_charge": 50.0,
+      "transportation_charge": 1000.0,
+      "product_name": [
+        "GP SHEET"
+      ],
+      "description": [
+        "GP SHEET 4X8 12GZ JSW 75 PIC"
+      ],
+      "quantity": [
+        500.0
+      ],
+      "unit_price": [
+        65.0
+      ]
+    }
+  },
+  {
+    "quotation_no": "LST/01",
+    "customer_name": "TARUN",
+    "date": "05-11-2025",
+    "file": "quotation_TARUN_05-11-2025_185000.pdf",
+    "total": 39648,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "TARUN",
+      "customer_address": "PALUS",
+      "customer_city": "MAHARASHTA",
+      "shipping_name": "PALUS",
+      "shipping_address": "PALUS",
+      "shipping_city": "MAHARASHTA",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-13",
+      "note": "ADVANCE",
+      "loading_charge": 1000.0,
+      "transportation_charge": 100.0,
+      "product_name": [
+        "GP SHEET"
+      ],
+      "description": [
+        "GP SHEET 4X8X12GZ JSW 75PIC"
+      ],
+      "quantity": [
+        500.0
+      ],
+      "unit_price": [
+        65.0
+      ]
+    }
+  },
+  {
+    "quotation_no": "3455",
+    "customer_name": "Karta Ram",
+    "date": "05-11-2025",
+    "file": "quotation_Karta_Ram_05-11-2025_184917.pdf",
+    "total": 4585,
+    "user_id": 1,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Karta Ram",
+      "customer_address": "Sandeshvar mahadev mandir",
+      "customer_city": "Tehsil- Raniwara, Dist.- Jalore",
+      "shipping_name": "Ram Choudhary",
+      "shipping_address": "Sandeshvar mahadev mandir",
+      "shipping_city": "Tehsil- Raniwara, Dist.- Jalore",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-05",
+      "note": "plesae do cash payment",
+      "loading_charge": 0.0,
+      "transportation_charge": 0.0,
+      "product_name": [
+        "TMT Bar 14MM"
+      ],
+      "description": [
+        "bar"
+      ],
+      "quantity": [
+        67.0
+      ],
+      "unit_price": [
+        58.0
+      ]
+    }
+  },
+  {
+    "quotation_no": "LSY-1",
+    "customer_name": "SHITOLE SAHEB SANGLI",
+    "date": "05-11-2025",
+    "file": "quotation_SHITOLE_SAHEB_SANGLI_05-11-2025_183426.pdf",
+    "total": 500609,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "SHITOLE SAHEB SANGLI",
+      "customer_address": "SANGLI",
+      "customer_city": "SANGLI",
+      "shipping_name": "SHITOLE SAHEB SANGLI",
+      "shipping_address": "SANGLI",
+      "shipping_city": "SANGLI",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-15",
+      "note": "",
+      "loading_charge": 2492.0,
+      "transportation_charge": 0.0,
+      "product_name": [
+        "GP SHEET",
+        "GP SHEET",
+        "GP SHEET",
+        "MS ANGLE ",
+        "MS ANGLE ",
+        "MS PIPE",
+        "MS FLAT",
+        "MS ANGLE "
+      ],
+      "description": [
+        "GP SHEET 4*8 14GZ 42",
+        "GP SHEET 4*8 12GZ 8N",
+        "GP SHEET 4*8 6MM HOLL",
+        "ANGLE 50X6 80N",
+        "ANGLE 50X6 20N",
+        "TATA 5X5 5.4MM 8N",
+        "16X16 X16MM 6N",
+        "CHANNEL 100X50 4N"
+      ],
+      "quantity": [
+        2142.0,
+        496.0,
+        520.0,
+        2080.0,
+        520.0,
+        1016.0,
+        135.0,
+        220.0
+      ],
+      "unit_price": [
+        65.0,
+        65.0,
+        65.0,
+        50.0,
+        50.0,
+        63.0,
+        85.0,
+        50.0
+      ]
+    },
+    "last_downloaded": "05-11-2025 18:34"
+  },
+  {
+    "quotation_no": "LSY 001 5.11.2025",
+    "customer_name": "SHITOLE SAHEB SANGLI",
+    "date": "05-11-2025",
+    "file": "quotation_SHITOLE_SAHEB_SANGLI_05-11-2025_183129.pdf",
+    "total": 481977,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "SHITOLE SAHEB SANGLI",
+      "customer_address": "SANGLI",
+      "customer_city": "SANGLI",
+      "shipping_name": "SHITOLE SAHEB SANGLI",
+      "shipping_address": "SANGLI",
+      "shipping_city": "SANGLI",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-15",
+      "note": "ADVANCE PAYMENT",
+      "loading_charge": 2492.0,
+      "transportation_charge": 0.0,
+      "product_name": [
+        "MS PIPE",
+        "MS PIPE",
+        "MS PIPE",
+        "MS ANGLE ",
+        "MS ANGLE ",
+        "MS PIPE",
+        "MS FLAT",
+        "MS ANGLE "
+      ],
+      "description": [
+        "PIPE",
+        "PIPE",
+        "PIPE",
+        "ANGLE 50X6 80N",
+        "ANGLE 50X6 20N",
+        "TATA 5X5 5.4MM 8N",
+        "16X16 X16MM 6N",
+        "CHANNEL 100X50 4N"
+      ],
+      "quantity": [
+        2142.0,
+        496.0,
+        520.0,
+        2080.0,
+        520.0,
+        1016.0,
+        135.0,
+        220.0
+      ],
+      "unit_price": [
+        60.0,
+        60.0,
+        60.0,
+        50.0,
+        50.0,
+        63.0,
+        85.0,
+        50.0
+      ]
+    },
+    "last_downloaded": "05-11-2025 18:31"
+  },
+  {
+    "quotation_no": "1426",
+    "customer_name": "Alok",
+    "date": "05-11-2025",
+    "file": "quotation_Alok_05-11-2025_164658.pdf",
+    "total": 93940,
+    "user_id": 10,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Alok",
+      "customer_address": "Pahadi gali, pull.no-2, near Shanti dham",
+      "customer_city": "Vikasnagar/ Dehradun",
+      "shipping_name": "Sagar ",
+      "shipping_address": "Abc",
+      "shipping_city": "Vikasnagar/ Dehradun",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-05",
+      "note": "",
+      "loading_charge": 0.0,
+      "transportation_charge": 50.0,
+      "product_name": [
+        "Alok ",
+        "Alok Rawat"
+      ],
+      "description": [
+        "KgMg",
+        "Hsvdb"
+      ],
+      "quantity": [
+        528.0,
+        886.0
+      ],
+      "unit_price": [
+        50.0,
+        60.0
+      ]
+    }
+  },
+  {
+    "quotation_no": "567",
+    "customer_name": "Bsvs b",
+    "date": "05-11-2025",
+    "file": "quotation_Bsvs_b_05-11-2025_163127.pdf",
+    "total": 152,
+    "user_id": 1,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Bsvs b",
+      "customer_address": "Hwhegeg",
+      "customer_city": "Bebdb",
+      "shipping_name": "Ebbsb",
+      "shipping_address": "Nwbdb",
+      "shipping_city": "37636",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-17",
+      "note": "",
+      "loading_charge": 0.0,
+      "transportation_charge": 0.0,
+      "product_name": [
+        "TMT Bar 14MM",
+        "screw"
+      ],
+      "description": [
+        "bar",
+        "screw"
+      ],
+      "quantity": [
+        2.0,
+        3.0
+      ],
+      "unit_price": [
+        57.0,
+        5.0
+      ]
+    }
+  },
+  {
+    "quotation_no": "37373773",
+    "customer_name": "Bsvs b",
+    "date": "05-11-2025",
+    "file": "quotation_Bsvs_b_05-11-2025_162955.pdf",
+    "total": 57608,
+    "user_id": 8,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Bsvs b",
+      "customer_address": "Hwhegeg",
+      "customer_city": "Bebdb",
+      "shipping_name": "Ebbsb",
+      "shipping_address": "Nwbdb",
+      "shipping_city": "37636",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-17",
+      "note": "Heh",
+      "loading_charge": 0.0,
+      "transportation_charge": 2820.0,
+      "product_name": [
+        "Trial",
+        "Onlime"
+      ],
+      "description": [
+        "Onlime services",
+        "Hhd dhdb"
+      ],
+      "quantity": [
+        2.0,
+        3.0
+      ],
+      "unit_price": [
+        20000.0,
+        2000.0
+      ]
+    },
+    "last_downloaded": "05-11-2025 16:31"
+  },
+  {
+    "quotation_no": "567",
+    "customer_name": "Karta Ram",
+    "date": "05-11-2025",
+    "file": "quotation_Karta_Ram_05-11-2025_162933.pdf",
+    "total": 442,
+    "user_id": 1,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Karta Ram",
+      "customer_address": "Sandeshvar mahadev mandir",
+      "customer_city": "Tehsil- Raniwara, Dist.- Jalore",
+      "shipping_name": "Ram",
+      "shipping_address": "Sandeshvar mahadev mandir",
+      "shipping_city": "Tehsil- Raniwara, Dist.- Jalore",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-05",
+      "note": "Please do payment in cash",
+      "loading_charge": 200.0,
+      "transportation_charge": 100.0,
+      "product_name": [
+        "screw"
+      ],
+      "description": [
+        "screw"
+      ],
+      "quantity": [
+        15.0
+      ],
+      "unit_price": [
+        5.0
+      ]
+    }
+  },
+  {
+    "quotation_no": "LSY 1/ 1.11.2025",
+    "customer_name": "Ajaysinh V Desai Engineers and Contractor",
+    "date": "01-11-2025",
+    "file": "quotation_Ajaysinh_V_Desai_Engineers_and_Contractor_01-11-2025_175713.pdf",
+    "total": 50888,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Ajaysinh V Desai Engineers and Contractor",
+      "customer_address": "Kolhapur",
+      "customer_city": "Kolhapur",
+      "shipping_name": "Ajaysinh V Desai Engineers and Contractor",
+      "shipping_address": "Kolhapur",
+      "shipping_city": "Kolhapur",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-08",
+      "note": "",
+      "loading_charge": 300.0,
+      "transportation_charge": 0.0,
+      "product_name": [
+        "MS BAR",
+        "MS BAR",
+        "MS FLAT"
+      ],
+      "description": [
+        "MS BAR 12MM SQ 44",
+        "MS BAR 10MM SQ 108",
+        "MS FLAT 25X5 21"
+      ],
+      "quantity": [
+        275.0,
+        454.0,
+        125.0
+      ],
+      "unit_price": [
+        50.0,
+        50.0,
+        51.0
+      ]
+    },
+    "last_downloaded": "01-11-2025 17:57"
+  },
+  {
+    "quotation_no": "LSY 1/ 1.11.2025",
+    "customer_name": "Ajaysinh V Desai Engineers and Contractor",
+    "date": "01-11-2025",
+    "file": "quotation_Ajaysinh_V_Desai_Engineers_and_Contractor_01-11-2025_175457.pdf",
+    "total": 29093,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Ajaysinh V Desai Engineers and Contractor",
+      "customer_address": "Kolhapur",
+      "customer_city": "Kolhapur",
+      "shipping_name": "Ajaysinh V Desai Engineers and Contractor",
+      "shipping_address": "Kolhapur",
+      "shipping_city": "Kolhapur",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-08",
+      "note": "",
+      "loading_charge": 130.0,
+      "transportation_charge": 0.0,
+      "product_name": [
+        "MS BAR",
+        "MS BAR",
+        "MS FLAT"
+      ],
+      "description": [
+        "MS BAR 12MM SQ 44",
+        "MS BAR 10MM SQ 21",
+        "MS FLAT 25X5 21"
+      ],
+      "quantity": [
+        275.0,
+        88.0,
+        125.0
+      ],
+      "unit_price": [
+        50.0,
+        50.0,
+        51.0
+      ]
+    },
+    "last_downloaded": "01-11-2025 17:55"
+  },
+  {
+    "quotation_no": "LSY 1/ 1.11.2025",
+    "customer_name": "Ajaysinh V Desai Engineers and Contractor",
+    "date": "01-11-2025",
+    "file": "quotation_Ajaysinh_V_Desai_Engineers_and_Contractor_01-11-2025_174634.pdf",
+    "total": 21570,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "Ajaysinh V Desai Engineers and Contractor",
+      "customer_address": "Kolhapur",
+      "customer_city": "Kolhapur",
+      "shipping_name": "Ajaysinh V Desai Engineers and Contractor",
+      "shipping_address": "Kolhapur",
+      "shipping_city": "Kolhapur",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-08",
+      "note": "advance payment and transport extra",
+      "loading_charge": 130.0,
+      "transportation_charge": 0.0,
+      "product_name": [
+        "MS BAR",
+        "MS BAR"
+      ],
+      "description": [
+        "MS BAR 12MM SQ 44",
+        "MS BAR 10MM SQ 21"
+      ],
+      "quantity": [
+        275.0,
+        88.0
+      ],
+      "unit_price": [
+        50.0,
+        50.0
+      ]
+    },
+    "last_downloaded": "01-11-2025 17:46"
+  },
+  {
+    "quotation_no": "LSY 1/ 1.11.2025",
+    "customer_name": "JJHJHJH",
+    "date": "01-11-2025",
+    "file": "quotation_JJHJHJH_01-11-2025_174004.pdf",
+    "total": 2950,
+    "user_id": 3,
+    "data": {
+      "company_name": "LAXMI STEEL YARD",
+      "company_address": "Sangli-Tasgaon Road, Budhgaon-416304",
+      "company_email": "laxmiyard810@gmail.com",
+      "company_phone": "9960709233",
+      "company_gst": "27AADHN3347N1ZT",
+      "customer_name": "JJHJHJH",
+      "customer_address": "sangli miraj road miraj ",
+      "customer_city": "Sangli",
+      "shipping_name": "Tarlekar motors pvt ltd sangli",
+      "shipping_address": "PALUS",
+      "shipping_city": "Sangli",
+      "account_name": "LAXMI STEEL YARD",
+      "account_number": "1046102000057",
+      "ifsc_code": "KUCB0488046",
+      "bank_name": "The Karad Urban Co-op Bank Ltd, Madhavnagar Branch (Mobile: 9960709233), Sangli",
+      "valid_till": "2025-11-08",
+      "note": "Payment 5days, ",
+      "loading_charge": 150.0,
+      "transportation_charge": 100.0,
+      "product_name": [
+        "Tata Angle"
+      ],
+      "description": [
+        "500"
+      ],
+      "quantity": [
+        50.0
+      ],
+      "unit_price": [
+        45.0
+      ]
+    }
+  }
+]

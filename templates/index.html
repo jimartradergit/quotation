@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Quotation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h2>Create Quotation</h2>
+  <form action="/preview" method="post">
+    <label>Company Name:</label>
+    <input type="text" name="company_name" required><br>
+
+    <label>Client Name:</label>
+    <input type="text" name="client_name" required><br>
+
+    <label>Quotation No:</label>
+    <input type="text" name="quotation_no" required><br>
+
+    <label>Quotation Date:</label>
+    <input type="date" name="quotation_date" required><br>
+
+    <h3>Products</h3>
+    <table>
+      <tr><th>Product</th><th>Size</th><th>Qty</th><th>Price</th><th>Amount</th></tr>
+      {% for i in range(1,6) %}
+      <tr>
+        <td><input type="text" name="product_{{i}}"></td>
+        <td><input type="text" name="size_{{i}}"></td>
+        <td><input type="number" name="qty_{{i}}" step="any"></td>
+        <td><input type="number" name="price_{{i}}" step="any"></td>
+        <td><input type="number" name="amount_{{i}}" step="any"></td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <button type="submit">Preview Quotation</button>
+  </form>
+</body>
+</html>
